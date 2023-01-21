@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Album Search</title>
+        <link href = "./album.css" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+
+
+    <body>
+        <div>
+            <header>
+                <div class="search-container">
+                    <input class="artist-name__input" type="text" placeholder="search..."  />
+                    <span class="album-search__button">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+            </header>
+
+            <div class="albums-search-result">
+                <div class="albums-search-summary">Search Albums by Artist Name:</div>
+                <div class="albums-list"></div>
+            </div>
+        </div>
+        <script defer src="./album.js"></script>
+    </body>
+</html>
